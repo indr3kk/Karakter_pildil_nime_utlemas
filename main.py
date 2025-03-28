@@ -6,9 +6,9 @@ pygame.init()
 WIDTH, HEIGHT = 630, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("2")
-font = pygame.font.Font(None, 30)
+font = pygame.font.Font(None, 25)
 text_content = "Tere, olen Martin Mitt"
-text_position = [220, 160]
+text_position = [210, 160]
 
 
 def load_image_from_url(url):
